@@ -60,7 +60,7 @@ ul
 
 #section
 {
-    display:flex
+    display:flex;
 }
 
 #section.center
@@ -124,7 +124,7 @@ ul
 
 #section form
 {
-    display: flex;
+    display: none;
     flex-direction: column;
     margin-top: 30px;
     width: 400px;
@@ -170,3 +170,5 @@ ul
     border-color: green;
     background-color: rgb(197, 226, 196);
 }
+
+

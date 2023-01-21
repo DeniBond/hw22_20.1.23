@@ -19,7 +19,7 @@
     </div>
     <div id="section">
         <div class="side-nav">
-            <ul>
+            <ul class="changeable-list">
                 <li class="active">All products</li>
                 <li data-name="Milk">Milk</li>
                 <li data-name="Chocolate">Chocolate</li>
@@ -31,11 +31,11 @@
         <form action="#" class="form-loader">
             <input class="form-control" name="p_id" placeholder="Type id" type="text">
             <input class="form-control" name="title" placeholder="Type product title"
-                   type="text">
+                   type="text" required>
             <input class="form-control" name="manufc" placeholder="Type manufacture"
                    type="text">
             <input class="form-control" name="price" placeholder="Type price" step="0.01"
-                   type="number">
+                   type="number" required>
             <select class="form-control" id="type" name="type">
                 <option value="milk">Milk</option>
                 <option value="chocolate">Chocolate</option>

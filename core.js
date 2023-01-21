@@ -5,7 +5,7 @@ class Products {
     #price;
 
     constructor(id, title, manufacture, price) {
-        this.#id = id;
+        this.#id = (Math.random()*100000).toFixed(0);
         this.#manufacture = manufacture;
         this.#title = title;
         this.#price = price;
@@ -118,4 +118,5 @@ class Store {
         return this.#products;
     }
 }
+
 
