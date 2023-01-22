@@ -42,7 +42,7 @@ form.addEventListener('change', e => {
         }
         case 'chocolate':
             form.querySelector('.not-default-elm').innerHTML = `
-            <input id="not-default-elm" class="form-control" type="number" name="kind"
+            <input id="not-default-elm" class="form-control" type="text" name="kind"
                          placeholder="Type kind">`;
             break;
         case 'wine':
@@ -105,7 +105,6 @@ showProductTab.onclick = e => {
     sideNav.style.display = 'block';
     addProductTab.classList.remove('active');
     showProductTab.classList.add('active');
-    renderCards(myStore.getAllProducts())
 }
 
 function renderCards(products) {
